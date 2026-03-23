@@ -14,7 +14,6 @@ print(masked_card_2)  # Вывод: Maestro ************6361
 account_info = "Счет 73654108430135874305"
 masked_account = mask_account_card(account_info)
 print(masked_account)  # Вывод: Счет ****************8305
-
 # Тестируем функцию get_date
 date_string = "11-07-2018"
 formatted_date = get_date(date_string)
