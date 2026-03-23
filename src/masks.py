@@ -1,5 +1,4 @@
 # src/masks.py
-
 def mask_card_number(card_number: str) -> str:
     """
     Маскирует номер карты, оставляя только последние 4 цифры видимыми.
