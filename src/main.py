@@ -2,7 +2,6 @@
 
 from src.masks import mask_card_number, mask_account_number
 
-
 def mask_account_card(input_string: str) -> str:
     """
     Маскирует номер карты или счета на основе типа (Visa, Maestro или Счет).
